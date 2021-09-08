@@ -1,0 +1,66 @@
+@font-face {
+	font-family: 'lambresia';
+	src: url('../assets/font/lambresia.otf');
+}
+
+/*map-get*/
+
+$textos: (
+   font: helvic,
+   size: 1.3rem,
+   style: normal,
+   align: justified, 
+   text: justify
+   );
+
+
+p{
+	font-family: map-get($textos, font);
+	font-size: map-get($textos, size);
+	font-style: map-get($textos, style);
+	align-content: map-get($textos, align);
+	text-align: map-get($textos, text);
+}
+
+
+.textoIndex{
+	margin: 100px 15px 50px 15px;
+}
+
+.textoNosotros{
+    display: inline;
+	transform: translate(650px, -275px);
+	}
+
+
+.precios{ 
+   font-family: helvic, sans-serif;
+   font-size: 1rem;
+   font-style: normal;
+   align-content: justified;
+   text-align: justify;
+   background-color: #D79771;
+}
+
+
+.textoProductos{
+	display: inline; 
+	transform: translate(350px, -300px);
+}
+
+.textoContacto{
+	transform: translate(600px, -400px);
+}
+
+.postre{
+   font-family: helvic, sans-serif;
+   font-size: 1.3rem;
+   font-style: normal;
+   align-content: center;
+   text-align: justify;
+   display: flex;
+   background-color: #D79771;
+   justify-content: center;
+   margin-top: 50px;
+
+}

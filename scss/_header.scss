@@ -1,0 +1,19 @@
+.header{
+	&__logo{
+	padding-top: 50px;
+	width: 350px;
+	height: auto;
+	position: relative;
+	transform: translate(400px, 0);
+	}
+	&__titulo{
+	font-family: lambresia, sans-serif;
+	font-size: 3rem;
+	font-style: normal;
+	text-align: left;
+	padding-top: 140px;
+	transform: translate(-55px, 0);
+	position: relative;
+	color: #11698E;
+	}
+}

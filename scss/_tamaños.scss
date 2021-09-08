@@ -1,0 +1,41 @@
+.imagenes{
+    display: inline;
+	width: 250px;
+	height: auto;
+}
+.imagenes__tortaManzana{
+	@extend .imagenes;
+	position: absolute;
+	margin: 75px 15px 0 15px;
+}
+
+.imagenes__budin{
+	@extend .imagenes;
+	transform: translate(1100px, -300px);
+	margin-top: 50px;
+}
+
+.imagenes__lingote{
+	@extend .imagenes;
+	position: absolute;
+	margin-top: 50px;
+}
+
+.imagenes__marmolado{
+	@extend .imagenes;
+	position: relative; 
+	transform: translate(270px, 50px)
+}
+
+.imagenes__cookies{
+	@extend .imagenes;
+	position: absolute;
+	margin-top: 100px;
+}
+
+.imagenes__muffin{
+	@extend .imagenes; 
+	position: relative;
+	transform: translate(1100px, 100px);
+}
+

@@ -1,0 +1,172 @@
+.footer {
+  background-color: #AEAF7A; }
+
+.body {
+  font-size: 62.5%;
+  background-color: #FCF8E8; }
+
+@font-face {
+  font-family: 'lambresia';
+  src: url("../assets/font/lambresia.otf"); }
+
+/*map-get*/
+p {
+  font-family: helvic;
+  font-size: 1.3rem;
+  font-style: normal;
+  align-content: justified;
+  text-align: justify; }
+
+.textoIndex {
+  margin: 100px 15px 50px 15px; }
+
+.textoNosotros {
+  display: inline;
+  transform: translate(650px, -275px); }
+
+.precios {
+  font-family: helvic, sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  align-content: justified;
+  text-align: justify;
+  background-color: #D79771; }
+
+.textoProductos {
+  display: inline;
+  transform: translate(350px, -300px); }
+
+.textoContacto {
+  transform: translate(600px, -400px); }
+
+.postre {
+  font-family: helvic, sans-serif;
+  font-size: 1.3rem;
+  font-style: normal;
+  align-content: center;
+  text-align: justify;
+  display: flex;
+  background-color: #D79771;
+  justify-content: center;
+  margin-top: 50px; }
+
+.footer__Twitter {
+  width: 50px;
+  height: auto;
+  position: relative; }
+
+.footer__Facebook {
+  width: 50px;
+  height: auto;
+  position: relative; }
+
+.footer__Gmail {
+  width: 50px;
+  height: auto;
+  position: relative; }
+
+.footer__Instagram {
+  width: 50px;
+  height: auto;
+  position: relative; }
+
+.footer__logo {
+  width: 70px;
+  height: auto;
+  position: relative; }
+
+.footer__rrss {
+  display: inline-flex;
+  flex-direction: row-reverse;
+  align-content: flex-end;
+  transform: translate(750px); }
+
+.header__logo {
+  padding-top: 50px;
+  width: 350px;
+  height: auto;
+  position: relative;
+  transform: translate(400px, 0); }
+
+.header__titulo {
+  font-family: lambresia, sans-serif;
+  font-size: 3rem;
+  font-style: normal;
+  text-align: left;
+  padding-top: 140px;
+  transform: translate(-55px, 0);
+  position: relative;
+  color: #11698E; }
+
+.imagenes, .imagenes__tortaManzana, .imagenes__budin, .imagenes__lingote, .imagenes__marmolado, .imagenes__cookies, .imagenes__muffin {
+  display: inline;
+  width: 250px;
+  height: auto; }
+
+.imagenes__tortaManzana {
+  position: absolute;
+  margin: 75px 15px 0 15px; }
+
+.imagenes__budin {
+  transform: translate(1100px, -300px);
+  margin-top: 50px; }
+
+.imagenes__lingote {
+  position: absolute;
+  margin-top: 50px; }
+
+.imagenes__marmolado {
+  position: relative;
+  transform: translate(270px, 50px); }
+
+.imagenes__cookies {
+  position: absolute;
+  margin-top: 100px; }
+
+.imagenes__muffin {
+  position: relative;
+  transform: translate(1100px, 100px); }
+
+.header__logo {
+  animation-name: logoMarca;
+  animation-iteration-count: 2;
+  animation-timing-function: ease-in;
+  animation-duration: 5s;
+  animation-delay: 1s; }
+
+@keyframes logoMarca {
+  25% {
+    transform: rotate(7deg); }
+  50% {
+    transform: rotate(-7deg); }
+  75% {
+    transform: rotate(5deg); }
+  100% {
+    transform: rotate(0deg); } }
+
+.footer__Twitter {
+  transition: all 2s; }
+
+.footer__Facebook {
+  transition: all 2s; }
+
+.footer__Gmail {
+  transition: all 2s; }
+
+.footer__Instagram {
+  transition: all 2s; }
+
+.footer__Twitter:hover {
+  transform: translateY(-20px); }
+
+.footer__Facebook:hover {
+  transform: translateY(-20px); }
+
+.footer__Instagram:hover {
+  transform: translateY(-20px); }
+
+.footer__Gmail:hover {
+  transform: translateY(-20px); }
+
+.mapa {
+  margin: 50px 50px 0 100px; }

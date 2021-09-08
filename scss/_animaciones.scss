@@ -1,0 +1,45 @@
+.header__logo{
+	animation-name: logoMarca;
+	animation-iteration-count: 2;
+	animation-timing-function: ease-in;
+	animation-duration: 5s;
+	animation-delay: 1s;
+}
+
+@keyframes logoMarca{
+	25%{transform: rotate(7deg);}
+	50%{transform: rotate(-7deg);}
+	75%{transform: rotate(5deg);}
+	100%{transform: rotate(0deg);}
+}
+
+
+.footer{
+	&__Twitter{
+	transition: all 2s;
+	}
+	&__Facebook{
+	transition: all 2s;
+	}
+	&__Gmail{
+	transition: all 2s;
+	}
+	&__Instagram{
+	transition: all 2s;
+	}
+}
+
+.footer{
+	&__Twitter:hover{
+	transform: translateY(-20px);
+	}
+	&__Facebook:hover{
+	transform: translateY(-20px);
+	}
+	&__Instagram:hover{
+	transform: translateY(-20px);
+	}
+	&__Gmail:hover{
+	transform: translateY(-20px);
+	}
+}
