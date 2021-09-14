@@ -39,14 +39,17 @@ p{
    font-style: normal;
    align-content: justified;
    text-align: justify;
-   background-color: #D79771;
+   background-color: #AEAF7A;
+   
 }
 
 
-.textoProductos{
-	display: inline; 
-	transform: translate(350px, -300px);
-}
+.textoProductos__parrafo{
+   transform: translate(250px, 0);
+   width: 1000px;
+   height: auto;
+   }
+
 
 .textoContacto{
 	transform: translate(600px, -400px);
@@ -59,7 +62,7 @@ p{
    align-content: center;
    text-align: justify;
    display: flex;
-   background-color: #D79771;
+   background-color: #AEAF7A;
    justify-content: center;
    margin-top: 50px;
 

@@ -30,11 +30,12 @@ p {
   font-style: normal;
   align-content: justified;
   text-align: justify;
-  background-color: #D79771; }
+  background-color: #AEAF7A; }
 
-.textoProductos {
-  display: inline;
-  transform: translate(350px, -300px); }
+.textoProductos__parrafo {
+  transform: translate(250px, 0);
+  width: 1000px;
+  height: auto; }
 
 .textoContacto {
   transform: translate(600px, -400px); }
@@ -46,7 +47,7 @@ p {
   align-content: center;
   text-align: justify;
   display: flex;
-  background-color: #D79771;
+  background-color: #AEAF7A;
   justify-content: center;
   margin-top: 50px; }
 
@@ -98,7 +99,15 @@ p {
   position: relative;
   color: #11698E; }
 
-.imagenes, .imagenes__tortaManzana, .imagenes__budin, .imagenes__lingote, .imagenes__marmolado, .imagenes__cookies, .imagenes__muffin {
+.navbar {
+  background-color: #AEAF7A;
+  height: 100px;
+  color: #FCF8E8;
+  display: flex;
+  align-content: center;
+  margin-bottom: 50px; }
+
+.imagenes, .imagenes__tortaManzana, .imagenes__budin, .imagenes__lingote, .imagenes__marmolado {
   display: inline;
   width: 250px;
   height: auto; }
@@ -119,30 +128,17 @@ p {
   position: relative;
   transform: translate(270px, 50px); }
 
-.imagenes__cookies {
-  position: absolute;
-  margin-top: 100px; }
+.Carusel__Imagen1 {
+  width: 1000px;
+  height: 600px; }
 
-.imagenes__muffin {
-  position: relative;
-  transform: translate(1100px, 100px); }
+.Carusel__Imagen2 {
+  width: 1000px;
+  height: 600px; }
 
-.header__logo {
-  animation-name: logoMarca;
-  animation-iteration-count: 2;
-  animation-timing-function: ease-in;
-  animation-duration: 5s;
-  animation-delay: 1s; }
-
-@keyframes logoMarca {
-  25% {
-    transform: rotate(7deg); }
-  50% {
-    transform: rotate(-7deg); }
-  75% {
-    transform: rotate(5deg); }
-  100% {
-    transform: rotate(0deg); } }
+.Carusel__Imagen3 {
+  width: 1000px;
+  height: 600px; }
 
 .footer__Twitter {
   transition: all 2s; }
@@ -170,3 +166,6 @@ p {
 
 .mapa {
   margin: 50px 50px 0 100px; }
+
+.imgFooter {
+  margin-top: 50px; }

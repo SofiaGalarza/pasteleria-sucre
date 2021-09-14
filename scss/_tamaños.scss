@@ -27,15 +27,18 @@
 	transform: translate(270px, 50px)
 }
 
-.imagenes__cookies{
-	@extend .imagenes;
-	position: absolute;
-	margin-top: 100px;
-}
 
-.imagenes__muffin{
-	@extend .imagenes; 
-	position: relative;
-	transform: translate(1100px, 100px);
+.Carusel{
+	&__Imagen1{
+	width: 1000px;
+	height: 600px;
+	}
+	&__Imagen2{
+	width: 1000px;
+	height: 600px;
+	}
+	&__Imagen3{
+	width:1000px;
+	height: 600px;
+	}
 }
-

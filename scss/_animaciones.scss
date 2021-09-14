@@ -1,18 +1,3 @@
-.header__logo{
-	animation-name: logoMarca;
-	animation-iteration-count: 2;
-	animation-timing-function: ease-in;
-	animation-duration: 5s;
-	animation-delay: 1s;
-}
-
-@keyframes logoMarca{
-	25%{transform: rotate(7deg);}
-	50%{transform: rotate(-7deg);}
-	75%{transform: rotate(5deg);}
-	100%{transform: rotate(0deg);}
-}
-
 
 .footer{
 	&__Twitter{
